@@ -323,7 +323,7 @@ section {
                 justify-content: center;
                 padding: 2rem;
                 transform: translateY(-100%);
-                transition: .5s linear;
+                transition: 0.5s linear;
                 h3 {
                     font-size: 2.5rem;
                     color: $white;
@@ -354,7 +354,7 @@ section {
         .box {
             text-align: center;
             padding: 2rem;
-            border-radius: .5rem;
+            border-radius: 0.5rem;
             background: $light-bg;
             box-shadow: $box-shadow;
             &:hover .image img {
@@ -363,20 +363,20 @@ section {
             .image {
                 height: 25rem;
                 width: 100%;
-                border-radius: .5rem;
+                border-radius: 0.5rem;
                 overflow: hidden;
                 img {
                     height: 100%;
                     width: 100%;
                     object-fit: cover;
-                    transition: .2s linear;
+                    transition: 0.2s linear;
                 }
             }
             .content {
                 .icons {
                     position: relative;
                     top: -1rem;
-                    border-radius: .5rem;
+                    border-radius: 0.5rem;
                     padding: 1.5rem;
                     display: inline-block;
                     background: $black;
@@ -388,7 +388,7 @@ section {
                             color: $crimson;
                         }
                         i {
-                            padding-right: .5rem;
+                            padding-right: 0.5rem;
                             color: $crimson;
                         }
                     }
@@ -457,7 +457,7 @@ section {
                     background: $light-bg;
                     color: $white;
                     text-align: center;
-                    margin-right: .3rem;
+                    margin-right: 0.3rem;
                     &:hover {
                         background: $crimson;
                     }
@@ -481,7 +481,7 @@ section {
                 font-size: 1.6rem;
                 color: $white;
                 text-transform: none;
-                margin: .7rem 0;
+                margin: 0.7rem 0;
                 background: $light-bg;
             }
             textarea {
